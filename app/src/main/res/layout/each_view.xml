@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+   <TextView
+       android:id="@+id/TheID"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="The Repo List ID "
+       android:textSize="24dp"
+       android:textAllCaps="true"
+       android:gravity="center"
+       />
+    <TextView
+        android:id="@+id/RepoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="The Title of The Repo"
+        /> <TextView
+    android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:textSize="14dp"
+        android:text="Description"
+        />
+
+
+</LinearLayout>
